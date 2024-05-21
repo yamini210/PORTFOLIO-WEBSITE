@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+      <nav class="navbar" id="nav-links">
+        <ul class="sidebar" id="sidebar">
+          <a href="#" id="closeSidebar">
+            <i class="fas fa-times"></i>
+          </a>
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#contact">Contact</a>
+        </ul>
+      </nav>
+      <a href="#" class="nav-toggle hover-link" id="nav-toggle">
+        <i class="fas fa-bars"></i>
+      </a>
+    </header>
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, I am</h3>
+        <h1>Yamini Thakur</h1>
+        <p>
+          Welcome to my portfolio website! I'm a passionate web developer with
+          expertise in HTML, CSS, and JavaScript. I love creating beautiful and
+          responsive websites that leave a lasting impression. In addition to
+          web development, I also have a keen interest in UI/UX design, ensuring
+          seamless user experiences across all platforms.
+        </p>
+        <div class="social-media">
+          <a href="https://github.com/yamini210"
+            ><i class="bx bxl-github"></i
+          ></a>
+
+          <a href="https://www.linkedin.com/in/yaminithakur004/"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+        </div>
+        <a href="resume-yamini.pdf" class="btn" download>Download CV</a>
+      </div>
+      <div class="home-content-right">
+        <img src="z.jpeg" alt="hero image" />
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="PORTFOLIO.png" alt="" />
+      </div>
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Hi, I'm Here To Help Your Next Project !</h3>
+        <p>
+          I'm a web developer with a passion for crafting beautiful and
+          functional websites.
+        </p>
+        <p>
+          When I'm not coding, I love exploring nature and capturing its beauty
+          through photography.
+        </p>
+        <p>Let's create something amazing together!</p>
+
+        <a href="#" class="btn"> Read More</a>
+      </div>
+    </section>
+    <section class="services" id="services">
+      <h2 class="heading">My <span>Services</span></h2>
+      <div class="services-container">
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Web Development</h3>
+          <p>
+            I create responsive and user-friendly websites tailored to your
+            needs, ensuring a seamless online experience for your audience.
+          </p>
+          <a href="#" class="btn"> Read More</a>
+        </div>
+        <div class="services-box">
+          <i class="bx bxl-figma"></i>
+          <h3>UI/UX</h3>
+          <p>
+            I design intuitive and visually appealing user interfaces, focusing
+            on enhancing usability and delivering delightful experiences.
+          </p>
+          <a href="#" class="btn"> Read More</a>
+        </div>
+        <div class="services-box">
+          <i class="bx bxs-paint"></i>
+          <h3>Graphic Designer</h3>
+          <p>
+            I create captivating visuals and graphics, including posters and
+            logos for events, to effectively communicate your message and
+            captivate your audience.
+          </p>
+          <a href="#" class="btn"> Read More</a>
+        </div>
+      </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Project</span></h2>
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="img1.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Website Clone</h4>
+            <p>
+              Experience my website cloning skills with projects inspired by
+              popular websites
+            </p>
+            <a href="http://usabilityhomepage.netlify.app"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="img2.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Figma</h4>
+            <p>
+              Explore my Figma projects where I design user interfaces with
+              attention to detail and usability.
+            </p>
+            <a
+              href="https://www.figma.com/proto/vzxjwEIVkHQiH7o0Smij0S/Sahayta?node-id=1-2&mode=design&t=ochTtCQQiUWGaa3T-1"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="img3.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Js project</h4>
+            <p>
+              Explore my JavaScript projects showcasing dynamic and interactive
+              web applications.
+            </p>
+            <a href="http://weather-forecasterapp.netlify.app"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <br />
+      <a href="#" class="btn" id="button">See more</a>
+    </section>
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+
+      <form name="submit-to-google-sheet">
+        <div class="input-box">
+          <input type="text" name="Full name" placeholder="Full Name" />
+          <input
+            type="email"
+            name="Email Address"
+            placeholder="Email Address"
+          />
+        </div>
+        <div class="input-box">
+          <input type="tel" name="Mobile Number" placeholder="Mobile Number" />
+          <input type="text" name="Email Subject" placeholder="Email Subject" />
+        </div>
+        <textarea
+          name="Your Message"
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+    </section>
+    <footer class="footer">
+      <div class="footer-text">
+        <p>
+          Copyright &copy; 2023 by Yamini Thakur | All Rights Reserved |Made
+          With Love
+        </p>
+      </div>
+      <div class="footer-iconTop">
+        <a href="#home">
+          <i class="bx bx-up-arrow-alt"></i>
+        </a>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+  <script></script>
+</html>
